@@ -489,11 +489,7 @@
             // Google Apps Script 웹앱 URL (배포 후 업데이트 필요)
             const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbykcKvOhlSApeW94iyK4JldF9vQhZWHDMLbGOauvCWLOVxLNYACF-ZxgprbB4WElW76Sw/exec';
             
-            if (GOOGLE_APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbykcKvOhlSApeW94iyK4JldF9vQhZWHDMLbGOauvCWLOVxLNYACF-ZxgprbB4WElW76Sw/exec') {
-                showStatus('Google Drive 저장을 사용하려면 Google Apps Script를 설정해야 해요! 📋', 'error');
-                return;
-            }
-
+        
             try {
                 showStatus('Google Drive에 저장하고 있어요... ☁️', 'info');
                 
